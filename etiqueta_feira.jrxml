@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="etiqueta_feira" language="groovy" pageWidth="264" pageHeight="113" whenNoDataType="NoPages" columnWidth="264" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="abd67df6-24d9-4aa9-bf1a-45877d3c66b9">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="json etiqueta feira adapter"/>
+    <property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="388"/>
+    <property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="598"/>
+    <style name="Arial_Normal" isDefault="true" fontName="SansSerif" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+    <queryString language="JSON">
+        <![CDATA[]]>
+    </queryString>
+    <field name="exibeM2" class="java.lang.Integer">
+        <property name="net.sf.jasperreports.json.field.expression" value="exibeM2"/>
+        <fieldDescription><![CDATA[exibeM2]]></fieldDescription>
+    </field>
+    <field name="codigoProduto" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="codigoProduto"/>
+        <fieldDescription><![CDATA[codigoProduto]]></fieldDescription>
+    </field>
+    <field name="codidoGrade" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="codidoGrade"/>
+        <fieldDescription><![CDATA[codidoGrade]]></fieldDescription>
+    </field>
+    <field name="descricao" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="descricao"/>
+        <fieldDescription><![CDATA[descricao]]></fieldDescription>
+    </field>
+    <field name="descricaoGrade" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="descricaoGrade"/>
+        <fieldDescription><![CDATA[descricaoGrade]]></fieldDescription>
+    </field>
+    <field name="descricaoTamanho" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="descricaoTamanho"/>
+        <fieldDescription><![CDATA[descricaoTamanho]]></fieldDescription>
+    </field>
+    <field name="codigoCor" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="codigoCor"/>
+        <fieldDescription><![CDATA[codigoCor]]></fieldDescription>
+    </field>
+    <field name="descricaoCor" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="descricaoCor"/>
+        <fieldDescription><![CDATA[descricaoCor]]></fieldDescription>
+    </field>
+    <field name="precoNac" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="precoNac"/>
+        <fieldDescription><![CDATA[precoNac]]></fieldDescription>
+    </field>
+    <field name="precoNacM2" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="precoNacM2"/>
+        <fieldDescription><![CDATA[precoNacM2]]></fieldDescription>
+    </field>
+    <field name="precoSao" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="precoSao"/>
+        <fieldDescription><![CDATA[precoSao]]></fieldDescription>
+    </field>
+    <field name="precoSaoM2" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="precoSaoM2"/>
+        <fieldDescription><![CDATA[precoSaoM2]]></fieldDescription>
+    </field>
+    <field name="percentualIPI" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="percentualIPI"/>
+        <fieldDescription><![CDATA[percentualIPI]]></fieldDescription>
+    </field>
+    <field name="fatorConversao" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="fatorConversao"/>
+        <fieldDescription><![CDATA[fatorConversao]]></fieldDescription>
+    </field>
+    <field name="categoria" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="categoria"/>
+        <fieldDescription><![CDATA[categoria]]></fieldDescription>
+    </field>
+    <field name="codigoGrupo" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="codigoGrupo"/>
+        <fieldDescription><![CDATA[codigoGrupo]]></fieldDescription>
+    </field>
+    <field name="marca" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="marca"/>
+        <fieldDescription><![CDATA[marca]]></fieldDescription>
+    </field>
+    <field name="largura" class="java.lang.Double">
+        <property name="net.sf.jasperreports.json.field.expression" value="largura"/>
+        <fieldDescription><![CDATA[largura]]></fieldDescription>
+    </field>
+    <field name="comprimento" class="java.lang.Double">
+        <property name="net.sf.jasperreports.json.field.expression" value="comprimento"/>
+        <fieldDescription><![CDATA[comprimento]]></fieldDescription>
+    </field>
+    <field name="altura" class="java.lang.Double">
+        <property name="net.sf.jasperreports.json.field.expression" value="altura"/>
+        <fieldDescription><![CDATA[altura]]></fieldDescription>
+    </field>
+    <field name="diametro" class="java.lang.Double">
+        <property name="net.sf.jasperreports.json.field.expression" value="diametro"/>
+        <fieldDescription><![CDATA[diametro]]></fieldDescription>
+    </field>
+    <field name="peso" class="java.lang.Double">
+        <property name="net.sf.jasperreports.json.field.expression" value="peso"/>
+        <fieldDescription><![CDATA[peso]]></fieldDescription>
+    </field>
+    <field name="coluna" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="coluna"/>
+        <fieldDescription><![CDATA[coluna]]></fieldDescription>
+    </field>
+    <field name="tipoGrade" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="tipoGrade"/>
+        <fieldDescription><![CDATA[tipoGrade]]></fieldDescription>
+    </field>
+    <field name="profundidade" class="java.lang.Double">
+        <property name="net.sf.jasperreports.json.field.expression" value="profundidade"/>
+        <fieldDescription><![CDATA[profundidade]]></fieldDescription>
+    </field>
+    <field name="precoVendaM2" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="precoVendaM2"/>
+        <fieldDescription><![CDATA[precoVendaM2]]></fieldDescription>
+    </field>
+    <field name="codigoBarras" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="codigoBarras"/>
+        <fieldDescription><![CDATA[codigoBarras]]></fieldDescription>
+    </field>
+    <field name="amostra" class="java.lang.String">
+        <property name="net.sf.jasperreports.json.field.expression" value="amostra"/>
+        <fieldDescription><![CDATA[amostra]]></fieldDescription>
+    </field>
+    <sortField name="descricaoGrade"/>
+    <sortField name="codigoCor"/>
+    <sortField name="descricaoTamanho"/>
+    <variable name="grade_e_descricaoCor" class="java.lang.String">
+        <variableExpression><![CDATA[$F{descricaoGrade} + " - " + $F{descricaoCor}]]></variableExpression>
+    </variable>
+    <variable name="v_ipi" class="java.lang.String">
+        <variableExpression><![CDATA["IPI " + $F{percentualIPI}  + "%"]]></variableExpression>
+    </variable>
+    <detail>
+        <band height="113" splitType="Stretch">
+            <property name="com.jaspersoft.studio.layout"/>
+            <property name="com.jaspersoft.studio.unit.height" value="cm"/>
+            <rectangle>
+                <reportElement x="0" y="0" width="263" height="113" uuid="545cf554-320b-4bed-ba61-77d4ffbbd7d4">
+                    <property name="com.jaspersoft.studio.unit.height" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="mm"/>
+                </reportElement>
+                <graphicElement>
+                    <pen lineWidth="1.0"/>
+                </graphicElement>
+            </rectangle>
+<!--            <rectangle>
+                <reportElement x="10" y="10" width="92" height="92" uuid="385bc5a4-6fe0-4c11-888b-aca9566270db"/>
+            </rectangle>-->
+            <image scaleImage="FillFrame">
+                <reportElement stretchType="ContainerBottom" x="10" y="10" width="92" height="92" uuid="50f7ab28-99c8-402f-8e1d-ebe7f1da2b78"/>
+                <imageExpression><![CDATA[com.google.zxing.client.j2se.MatrixToImageWriter.toBufferedImage(
+new com.google.zxing.qrcode.QRCodeWriter().encode(
+$F{codigoProduto},
+com.google.zxing.BarcodeFormat.QR_CODE, 300, 300,com.google.common.collect.ImmutableMap.of(com.google.zxing.EncodeHintType.MARGIN,0)))]]></imageExpression>
+            </image>
+            <textField textAdjust="ScaleFont">
+                <reportElement x="110" y="10" width="143" height="22" uuid="f917edcd-7273-43d6-9de3-30b4d6097442"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$V{grade_e_descricaoCor}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="110" y="34" width="143" height="16" uuid="e9f89b19-0650-47d9-a1ec-ae5fd1683f81"/>
+                <textElement textAlignment="Center">
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{descricaoTamanho}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="110" y="52" width="143" height="16" uuid="4b7ba2df-58a4-42f8-a058-1b51a612ca4a"/>
+                <textElement textAlignment="Center">
+                    <font size="10"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{codigoProduto}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="134" y="70" width="50" height="13" uuid="d3a031fb-a860-4c31-8c4d-12f365f92e2d">
+                    <printWhenExpression><![CDATA[$F{exibeM2} == 1]]></printWhenExpression>
+                </reportElement>
+                <textElement>
+                    <font size="10"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{precoNacM2} + " m²"]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="110" y="70" width="22" height="13" uuid="06699a39-603c-4a84-91ff-4b73fff55fc7"/>
+                <textElement>
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[NAC]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="190" y="70" width="64" height="13" uuid="5622064a-4da5-4a0a-a591-55dc50a08395"/>
+                <textElement textAlignment="Right">
+                    <font size="11" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{precoNac}]]></textFieldExpression>
+            </textField>
+            <staticText>
+                <reportElement x="110" y="85" width="22" height="13" uuid="f241fc19-491a-4e98-88ef-2038300a30ea"/>
+                <textElement>
+                    <font size="9" isBold="true"/>
+                </textElement>
+                <text><![CDATA[SAO]]></text>
+            </staticText>
+            <textField>
+                <reportElement x="134" y="85" width="50" height="13" uuid="aa5cf101-cf8c-4c3f-b972-136c228791db">
+                    <printWhenExpression><![CDATA[$F{exibeM2} == 1]]></printWhenExpression>
+                </reportElement>
+                <textElement>
+                    <font size="10"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{precoSaoM2} + " m²"]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="190" y="85" width="64" height="13" uuid="06baf63f-4855-4475-a7bf-ddf1d639c64f"/>
+                <textElement textAlignment="Right">
+                    <font size="11" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$F{precoSao}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="190" y="99" width="64" height="13" uuid="b624251b-b0d9-4089-9f17-1dfba0ea597c"/>
+                <textElement textAlignment="Right">
+                    <font size="10"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$V{v_ipi}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+</jasperReport>
